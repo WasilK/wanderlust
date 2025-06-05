@@ -1,26 +1,22 @@
-Wanderlust - Hotel Listing & Review Platform
-Wanderlust is a full-stack web application built using Express.js, Node.js, and MongoDB following the MVC architecture. It allows users to create and manage hotel listings, write reviews, and explore locations with integrated maps.
+# Wanderlust - Hotel Listing & Review Platform
 
-Features
-User Authentication: Secure sign-up and login system with password-based authentication.
+Wanderlust is a full-stack web application built with Node.js, Express, and MongoDB following the MVC architecture. It allows users to create and manage hotel listings, write reviews, and explore hotels on an interactive map.
 
-Hotel Listings: Users can create, update, and delete their own hotel listings.
+## Features
 
-Reviews: Authenticated users can write and manage reviews for hotels.
+- User authentication with secure password-based login and signup
+- Create, update, and delete hotel listings
+- Write and manage reviews for hotels
+- Interactive maps integration to display hotel locations
+- Clean MVC architecture for organized and maintainable code
+- RESTful routing for smooth navigation and API design
 
-Maps Integration: Interactive maps powered by a Maps API to visualize hotel locations.
+## Technologies Used
 
-MVC Architecture: Clear separation of concerns for scalable and maintainable code.
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB with Mongoose  
+- **Authentication:** Password-based authentication with session management  
+- **Frontend:** EJS templating engine  
+- **Maps:** Integrated Maps API for location visualization  
 
-RESTful Routes: Clean and organized API endpoints for listings, reviews, and user actions.
 
-Technologies Used
-Backend: Node.js, Express.js
-
-Database: MongoDB with Mongoose ODM
-
-Authentication: Password-based authentication with session management
-
-Frontend: EJS templating engine for server-side rendered views
-
-Maps API: Integrated to display and interact with hotel locations on maps
